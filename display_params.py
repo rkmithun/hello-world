@@ -18,7 +18,11 @@ print records
         
 records.append(params)
 print ("Records")
-print records       
+print records  
+
+records.insert(1, { 'pos-1' : 'my insert'} )
+print ("Records")
+print records  
 
     
 display_params(**params)
